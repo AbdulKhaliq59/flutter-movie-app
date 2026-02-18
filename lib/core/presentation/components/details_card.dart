@@ -4,7 +4,7 @@ import 'package:movies_app/core/domain/entities/media.dart';
 import 'package:movies_app/core/domain/entities/media_details.dart';
 import 'package:movies_app/core/presentation/components/slider_card_image.dart';
 import 'package:movies_app/core/utils/enums.dart';
-import 'package:movies_app/watchlist/presentation/controllers/watchlist_bloc/watchlist_bloc.dart';
+import 'package:movies_app/features/watchlist/presentation/bloc/watchlist_bloc/watchlist_bloc.dart';
 
 import 'package:movies_app/core/resources/app_colors.dart';
 import 'package:movies_app/core/resources/app_values.dart';

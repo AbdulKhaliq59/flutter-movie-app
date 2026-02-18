@@ -5,12 +5,12 @@ import 'package:movies_app/core/resources/app_router.dart';
 import 'package:movies_app/core/services/service_locator.dart';
 import 'package:movies_app/core/resources/app_strings.dart';
 import 'package:movies_app/core/resources/app_theme.dart';
-import 'package:movies_app/movies/presentation/controllers/movies_bloc/movies_bloc.dart';
-import 'package:movies_app/movies/presentation/controllers/movies_bloc/movies_event.dart';
-import 'package:movies_app/tv_shows/presentation/controllers/tv_shows_bloc/tv_shows_bloc.dart';
-import 'package:movies_app/watchlist/data/models/watchlist_item_model.dart';
+import 'package:movies_app/features/movies/presentation/bloc/movies_bloc/movies_bloc.dart';
+import 'package:movies_app/features/movies/presentation/bloc/movies_bloc/movies_event.dart';
+import 'package:movies_app/features/tv_shows/presentation/bloc/tv_shows_bloc/tv_shows_bloc.dart';
+import 'package:movies_app/features/watchlist/data/models/watchlist_item_model.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:movies_app/watchlist/presentation/controllers/watchlist_bloc/watchlist_bloc.dart';
+import 'package:movies_app/features/watchlist/presentation/bloc/watchlist_bloc/watchlist_bloc.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

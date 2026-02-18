@@ -1,18 +1,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
 import 'package:movies_app/core/presentation/pages/main_page.dart';
-import 'package:movies_app/movies/presentation/views/movie_details_view.dart';
-import 'package:movies_app/movies/presentation/views/movies_view.dart';
-import 'package:movies_app/movies/presentation/views/popular_movies_view.dart';
-import 'package:movies_app/movies/presentation/views/top_rated_movies_view.dart';
-import 'package:movies_app/search/presentation/views/search_view.dart';
-import 'package:movies_app/tv_shows/presentation/views/popular_tv_shows_view.dart';
-import 'package:movies_app/tv_shows/presentation/views/top_rated_tv_shows_view.dart';
-import 'package:movies_app/tv_shows/presentation/views/tv_show_details_view.dart';
-import 'package:movies_app/tv_shows/presentation/views/tv_shows_view.dart';
+import 'package:movies_app/features/movies/presentation/pages/movie_details_view.dart';
+import 'package:movies_app/features/movies/presentation/pages/movies_view.dart';
+import 'package:movies_app/features/movies/presentation/pages/popular_movies_view.dart';
+import 'package:movies_app/features/movies/presentation/pages/top_rated_movies_view.dart';
+import 'package:movies_app/features/search/presentation/pages/search_view.dart';
+import 'package:movies_app/features/tv_shows/presentation/pages/popular_tv_shows_view.dart';
+import 'package:movies_app/features/tv_shows/presentation/pages/top_rated_tv_shows_view.dart';
+import 'package:movies_app/features/tv_shows/presentation/pages/tv_show_details_view.dart';
+import 'package:movies_app/features/tv_shows/presentation/pages/tv_shows_view.dart';
 
 import 'package:movies_app/core/resources/app_routes.dart';
-import 'package:movies_app/watchlist/presentation/views/watchlist_view.dart';
+import 'package:movies_app/features/watchlist/presentation/pages/watchlist_view.dart';
 
 const String moviesPath = '/movies';
 const String movieDetailsPath = 'movieDetails/:movieId';

@@ -1,9 +1,9 @@
 import 'package:equatable/equatable.dart';
 import 'package:movies_app/core/domain/entities/media.dart';
-import 'package:movies_app/movies/domain/entities/cast.dart';
-import 'package:movies_app/movies/domain/entities/review.dart';
-import 'package:movies_app/tv_shows/domain/entities/episode.dart';
-import 'package:movies_app/tv_shows/domain/entities/season.dart';
+import 'package:movies_app/features/movies/domain/entities/cast.dart';
+import 'package:movies_app/features/movies/domain/entities/review.dart';
+import 'package:movies_app/features/tv_shows/domain/entities/episode.dart';
+import 'package:movies_app/features/tv_shows/domain/entities/season.dart';
 
 // ignore: must_be_immutable
 class MediaDetails extends Equatable {
